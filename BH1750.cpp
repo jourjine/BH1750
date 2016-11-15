@@ -64,7 +64,7 @@ BH1750::BH1750(byte addr) {
 void BH1750::begin(uint8_t mode) {
 
   // Initialize I2C
-  Wire.begin();
+  // Wire.begin();
 
   // Configure sensor in specified mode
   configure(mode);
